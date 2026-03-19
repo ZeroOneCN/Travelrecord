@@ -54,3 +54,21 @@ build/
 
 # 忽略特定路径的文件
 debug/error.log
+
+# 数据库文件
+*.db
+*.db3
+*.sqlite
+*.sqlite3
+
+# 配置文件
+*.env
+.env.local
+.env.*.local
+
+# 备份文件
+*.bak
+*.backup
+
+# 其他敏感文件
+# *.sql  # 根据需要取消注释
